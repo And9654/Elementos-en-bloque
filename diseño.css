@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;700&display=swap');
+
+
+html, body{
+    background: rgb(235, 235, 240);
+}
+
+.contenedor_elementos{
+    font-family: 'Urbanist';
+    position: absolute;
+    top: 35%; left: 37.5%;
+    border: 1px solid rgb(131, 122, 122);
+    border-radius: 8px;
+    width: 16%; height: 34vh;
+    background: rgb(75, 65, 65);
+    box-shadow: 1px 1px 8px 2px rgb(194, 192, 192);
+    padding: .2% 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+    font-size: 130%;
+    margin-top: 2%;
+}
+
+.contenedor_elemento{
+    margin: 0;
+    margin-top: 1.5%;
+    height: 5vh;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.contenedor_elemento:hover{
+    background: rgb(175, 139, 139);
+}
+
+.elemento{
+    user-select: none;
+    font-weight: 300;
+    display: inline-block;
+    width: 100%; height: 100%;
+    padding: .5% 3%;
+    color: white;
+}
+
+.raya{
+    margin-top: 5%;
+    border: 1px solid white;
+}
+
+
+button{
+    background: none;
+    color: white;
+    font-size: 100%;
+    text-align: left;
+    font-family: 'Urbanist';
+    border: none;
+    cursor: pointer;
+}
+
+#elemento_enviar{
+    margin-top: 4%;
+}
+a:active{
+    background: rgb(33, 33, 190);
+}
+
+a{
+    text-decoration: none;
+}
